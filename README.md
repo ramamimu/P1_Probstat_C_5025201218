@@ -2,7 +2,6 @@
 
 ### 1. Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
 
-\
 a) Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ?
 (distribusi Geometrik)
 
@@ -10,9 +9,12 @@ a) Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaks
 
 b) mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
 geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
+
 ![1b](/1/1b.png)
 
 c) Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
+
+Distribusi geometrik diaplikasikan dalam percobaan bernoulli diulang beberapa kali sampai mendapatkan sukses yang pertama. Percobaan dengan 10000 data random memiliki hasil yang hampir sama. yaitu dengan error 2.4% dengan perbandingan nilai tengahnya.
 
 d) Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
 ![1d](1/1d.png)
@@ -29,8 +31,22 @@ e) Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
 
 ![1e](1/1e-varian.png)
 
+<br>
 ### 2. Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
 
+Kasus ini dapat diselesaikan dengan binomial distribution.
+
+![1e](2/binomial-distribution.png)
+
+n = jumlah pasien total
+
+x = pasien sembuh
+
+p = peluang sembuh
+
+1 - p = peluang tidak sembuh
+
+<br>
 a. Peluang terdapat 4 pasien yang sembuh.
 
 ![2a](2/2a.png)
@@ -70,6 +86,8 @@ b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit 
 ![3b](3/3b-grafik.png)
 
 c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+
+Peluang bayi yang akan lahir di rumah sakit besok tergolong cukup tinggi meskipun hanya di angka 0.128 kemungkinan. Namun apabila dibandingkan dalam satu tahun masih relatif lebih tinggi
 
 d. Nilai Rataan (μ) dan Varian ( σ² ) dari Distribusi Poisson.
 
